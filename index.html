@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canisha Subedi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+           <div class="top-bar">
+        <nav class="top-nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#profile">Professional Profile</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="Canisha's Cv..pdf" download="Canisha_Subedi_CV.pdf">Download CV</a></li>
+            </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-images" id="home">
+        <div class="hero-slider">
+            <div class="slide active">
+                <img src="images/qa image 1.jpg" alt="Hero image 1">
+            </div>
+            <div class="slide">
+                <img src="images/qa image 2.jpg" alt="Hero image 2">
+            </div>
+            <div class="slide">
+                <img src="images/qa image 3.jpg" alt="Hero image 3">
+            </div>
+        </div>
+    </section>
+    <section class="hero-title">
+    <h1>Canisha Subedi</h1>
+
+    <p class="tagline">
+      <em>From Engineering Principles to Digital Solutions</em>
+    </p>
+
+    <p class="hero-text">
+        Exploring the intersection of technology, quality engineering, and problem solving through continuous learning, practical projects, and professional development.
+    </p>
+</section>
+
+   
+
+            <section id="profile" class="card">
+                <h2>Professional Profile</h2>
+                <div class="project-item">
+                <h3>Professional Summary</h3>
+<ul>
+    <li>Passionate about technology, quality engineering, and continuous learning.</li>
+    <li>Developing practical skills in web development through personal projects and self-directed learning.</li>
+    <li>Strong analytical and problem-solving mindset developed through an engineering background.</li>
+    <li>Interested in software quality engineering, testing, and improving user experiences.</li>
+    <li>Enjoy creating practical solutions and learning new technologies.</li>
+</ul>
+<h2>Skills</h2>
+<ul>
+    <li>Data Analysis & Reporting</li>
+    <li>Problem Solving & Critical Thinking</li>
+    <li>Technical Documentation</li>
+    <li>Presentation & Communication Skills</li>
+    <li>HTML & CSS</li>
+    <li>Python</li>
+    <li>Power BI</li>
+    <li>CRM Systems (Salesforce)</li>
+</ul>
+
+<h3>Featured Projects</h3>
+<ul>
+    <li>Designed a rotary dryer system for wastewater treatment using slow pyrolysis technology, supporting the reduction of moisture content and improving overall treatment efficiency. Considered process flow, operating conditions, and system performance during the design phase.</li>
+
+    <li>Designed and analysed a heat exchanger system to optimise thermal energy transfer within the treatment process. Evaluated key design parameters, heat transfer requirements, and equipment sizing to ensure efficient operation.</li>
+
+    <li>Applied engineering design principles and process calculations to develop a sustainable treatment solution. Produced technical designs, assessed system performance, and considered environmental and operational factors throughout the project lifecycle.</li>
+</ul>
+                <h4>Interests</h4>
+<ul>
+    <li>Technology and digital innovation</li>
+    <li>Travelling and exploring new cultures</li>
+    <li>Health, fitness, and personal wellbeing</li>
+    <li>Cooking and experimenting with new cuisines</li>
+    <li>Continuous learning and professional development</li>
+</ul>
+                </div>
+            </section>
+
+            <section id="contact" class="card">
+    <h2>Get In Touch</h2>
+
+    <ul>
+        <li>
+            <strong>Email:</strong>
+            <a href="mailto:canisha.subedi@gmail.com">
+                canisha.subedi@gmail.com
+            </a>
+        </li>
+
+        <li>
+            <strong>LinkedIn:</strong>
+            <a href="https://www.linkedin.com/in/canisha-subedi-231477250" target="_blank">
+                View Profile
+            </a>
+        </li>
+    </ul>
+</section>
+<footer>
+    <p>© 2026 Canisha Subedi | Engineering & Technology Portfolio</p>
+</footer>
+
+    <script>
+      const slides = document.querySelectorAll('.hero-slider .slide');
+      let currentSlide = 0;
+      setInterval(() => {
+        slides[currentSlide].classList.remove('active');
+        currentSlide = (currentSlide + 1) % slides.length;
+        slides[currentSlide].classList.add('active');
+      }, 3000);
+    </script>
+</body>
+</html>
